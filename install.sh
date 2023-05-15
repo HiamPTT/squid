@@ -43,8 +43,8 @@ red "đã tắt ipv6 thành công"
 # menu lệnh
 function start_menu() {
     clear
-    purple "Tool Squid Proxy Design Bởi PTT"
-    purple "Zalo: 0382399633"
+    red "Tool Squid Proxy Design Bởi PTT"
+    red "Zalo: 0382.399.633 - 055.987.3663"
     yellow " ————————————————————————————————————————————————"
     green "1. Cài đặt Squid Proxy (cho centos)"
     green "2. Mở port cho Squid (mặc định 54321)"
