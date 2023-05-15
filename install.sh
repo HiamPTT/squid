@@ -20,7 +20,7 @@ function installsquid(){
 yum -y install squid
 chkconfig squid on
 service squid start
-red "đã cài đặt thành công squid"
+red "đã cài đặt thành công squid, vui lòng edit config trước khi tiếp tục"
 }
 
 # cài đặt port
