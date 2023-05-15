@@ -49,7 +49,7 @@ function start_menu() {
     green "1. Cài đặt Squid Proxy (cho centos)"
     green "2. Mở port cho Squid (mặc định 54321)"
     green "3. Tắt ipv6 cho VPS"
-    green "0. Exit Tool"
+    green "4. Exit Tool"
 
     echo
     read -p "Vui lòng ấn số và Enter để chọn chức năng:" menuNumberInput
