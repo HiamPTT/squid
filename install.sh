@@ -20,7 +20,7 @@ function installsquid(){
 yum -y install squid
 chkconfig squid on
 service squid start
-red "đã cài đặt thành công squid, vui lòng edit config trước khi tiếp tục"
+red "đã cài đặt thành công squid"
 }
 
 # cài đặt port
@@ -43,7 +43,7 @@ red "đã tắt ipv6 thành công"
 # menu lệnh
 function start_menu() {
     clear
-    purple "Tool Squid Proxy"
+    purple "Tool Squid Proxy Design Bởi PTT"
     purple "Zalo: 0382399633"
     yellow " ————————————————————————————————————————————————"
     green "1. Cài đặt Squid Proxy (cho centos)"
@@ -66,7 +66,7 @@ function start_menu() {
         4 )
            exit 1
         ;;
-                * )
+        * )
             clear
             red "nhập đúng số đi sai rùi :)"
             start_menu
